@@ -31,3 +31,15 @@ address {
   font-size: $type-size-5;
   font-style: normal;
 }
+
+.author__avatar {
+  img {
+    max-width: 130px;
+  }
+}
+
+.sidebar {
+  @include breakpoint($large) {
+    opacity: 1.0;
+  }
+}
