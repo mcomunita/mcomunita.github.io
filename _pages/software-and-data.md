@@ -17,7 +17,7 @@ author_profile: true
 
 | Software | |
 |-|:-
-| <a href="https://github.com/sonyc-project/urban-sound-tagging-baseline">urban-sound-tagging-baseline</a> | 2019 DCASE Urban Sound Tagging Baseline
+| <a href="https://github.com/sonyc-project/urban-sound-tagging-baseline">DCASE UST Baseline</a> | 2019 DCASE Urban Sound Tagging Baseline
 | <a href="https://github.com/justinsalamon/scaper">Scaper</a> | A Python library for soundscape synthesis and augmentation
 | <a href="https://github.com/interactiveaudiolab/caqe">CAQE</a> | A Python web application for collecting crowdsourced audio quality evaluations
 | <a href="https://github.com/mcartwright/LPC-Toolkit">LPC Toolkit</a> | A toolkit of Max objects to use real-time linear predictive coding in creative projects
