@@ -1,5 +1,5 @@
 ---
-permalink: /resources
+permalink: /software-and-data/
 layout: single
 classes: 
   - wide
