@@ -34,7 +34,12 @@ address {
 
 .author__avatar {
   img {
-    max-width: 130px;
+    max-width: 138px;
+
+    @include breakpoint($large) {
+      padding: 0px;
+      border: 1px solid #efefef;
+    }
   }
 }
 
