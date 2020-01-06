@@ -8,7 +8,7 @@ author_profile: true
 
 volcano_row:
   - image_path: /assets/images/pinata.jpg
-    title: Pinata (2012)
+    title: Pi&ntilde;ata (2012)
     url: http://music.volcanoisaband.com/album/pi-ata
   - image_path: /assets/images/paperwork.jpg
     title: Paperwork (2008)
