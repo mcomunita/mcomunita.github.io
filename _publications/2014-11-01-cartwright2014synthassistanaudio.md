@@ -10,6 +10,6 @@ paperurl: '/files/cartwright2014synthassistanaudio.pdf'
 video_id: 'RPVTRF5_ZoI'
 categories: 
   - Natural Audio Production Interfaces
-citation: 'Cartwright, M., Pardo, B. SynthAssist: An Audio Synthesizer Programmed With Vocal Imitation. In <i>Proceedings of the ACM International Conference on Multimedia (ACM MM)</i>, 2014. <b><i class=&quot;fas fa-fw fa-trophy&quot; aria-hidden=&quot;true&quot;></i>Best Demo Award</b>'
+citation: 'Cartwright, M., Pardo, B. SynthAssist: An Audio Synthesizer Programmed With Vocal Imitation. In <i>Proceedings of the ACM International Conference on Multimedia (ACM MM)</i>, 2014. <b><i class="fas fa-fw fa-trophy" aria-hidden="true"></i>Best Demo Award</b>'
 author_profile: true
 ---

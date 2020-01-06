@@ -14,6 +14,6 @@ data: 'https://doi.org/10.5281/zenodo.1251982'
 dataname: 'VocalSketch dataset'
 categories: 
   - Natural Audio Production Interfaces
-citation: 'Cartwright, M., Pardo, B. VocalSketch: Vocally Imitating Audio Concepts. In <i>Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI)</i>, 2015. <b><i class=&quot;fas fa-fw fa-award&quot; aria-hidden=&quot;true&quot;></i>Honorable Mention</b>'
+citation: 'Cartwright, M., Pardo, B. VocalSketch: Vocally Imitating Audio Concepts. In <i>Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI)</i>, 2015. <b><i class="fas fa-fw fa-award" aria-hidden="true"></i>Honorable Mention</b>'
 author_profile: true
 ---

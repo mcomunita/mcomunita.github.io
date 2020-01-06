@@ -49,10 +49,12 @@ html_escape_table = {
     "'": "&apos;",
     }
 
-def html_escape(text):
+def html_escape(text, escape_quotes=True):
     """Produce entities within text."""
     temp = text.encode('ascii', 'xmlcharrefreplace').decode('utf8')
-    return "".join(html_escape_table.get(c, c) for c in temp)
+    if escape_quotes:
+        temp = "".join(html_escape_table.get(c, c) for c in temp)
+    return temp
 
 
 # ## Creating the markdown files
@@ -136,7 +138,7 @@ for row, item in publications.iterrows():
         for c in item.categories.split(','):
             md += "\n  - " + cat_dict[c]
 
-    md += "\ncitation: '" + html_escape(item.citation) + "'"
+    md += "\ncitation: '" + html_escape(item.citation, escape_quotes=False) + "'"
 
     md += "\nauthor_profile: true"
     
