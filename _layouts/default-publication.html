@@ -1,0 +1,40 @@
+---
+layout: publication
+classes: wide
+---
+
+{{ content }}
+{% if page.video_id %}
+    {% include video id=page.video_id provider="youtube" %}
+{% endif %}
+
+<p>
+    <a href='{{ page.paperurl }}'><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i></a>
+    {% if page.presentation %}
+         <a href='{{ page.presentation }}'><i class="fas fa-fw fa-file-powerpoint" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if page.poster %}
+         <a href='{{ page.poster }}'><i class="fas fa-fw fa-file-image" aria-hidden="true"></i></a>
+    {% endif %}
+    <a href='{{ page.paperurl }}'>{{ page.citation }}</a>
+</p>
+
+{% if page.image %}
+    <img src="{{ page.image }}" class="align-{{ page.imagealign | default: 'center' }}" width="{{ page.imagewidth | default: '50' }}%">
+{% endif %}
+<h3>Abstract</h3>
+<p>{{ page.abstract | newline_to_br | smartify }}</p>
+
+
+{% if page.code or page.data%}
+<h3>Resources</h3>
+{% endif %}
+<ul>
+    {% if page.code %}
+    <li><b>Code:</b> <a href="{{ page.code }}">{{ page.codename }}</a></li>
+    {% endif %}
+    {% if page.data %}
+    <li><b>Data:</b> <a href="{{ page.data }}">{{ page.dataname }}</a></li>
+    {% endif %}
+</ul>
+
