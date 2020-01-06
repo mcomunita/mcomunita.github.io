@@ -8,6 +8,8 @@ author_profile: true
 redirect_from: 
   - /bio/
   - /bio.html
+  - /about/
+  - /about.html
 ---
 Mark Cartwright is Brooklyn-based computer scientist and musician. He is currently a Research Assistant Professor in NYU’s [Department of Computer Science and Engineering](https://engineering.nyu.edu/academics/departments/computer-science-and-engineering) with affiliations to NYU’s [Music and Audio Research Lab](https://steinhardt.nyu.edu/marl/) and the [Center for Urban Science and Progress](http://cusp.nyu.edu/). His research lies at the intersection of human-computer interaction, machine learning, and audio signal processing. His focus is on human-centered machine listening and audio processing systems that enable new interactions for observing the acoustic world and creatively expressing through sound. He completed his PhD in computer science at Northwestern University as a member of the [Interactive Audio Lab](http://music.eecs.northwestern.edu/), and he holds a Master of Arts from [Stanford University (CCRMA)](https://ccrma.stanford.edu/) and a Bachelor of Music from Northwestern University.  Before his current position, he spent two years as a postdoctoral researcher in the Music and Audio Research Lab (MARL) at New York University (NYU). 
 
