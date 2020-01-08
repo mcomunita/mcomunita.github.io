@@ -10,7 +10,7 @@ classes:
 The objective of my research is to build human-centered machine listening and audio processing systems that enable new interactions for observing the acoustic world and expressing oneself through sound. 
 I aim to use machine learning as a tool to augment human skills/intelligence rather than as a tool to fully automate processes. 
 I carry out this research in the fields of human-computer interaction (HCI) and machine learning, and I apply it to the content domain of audio, a rich application space due to the inherent subjectivity, ambiguity, and context-dependence of auditory perception. 
-To carry out my research, I develop new methods, conduct human subject experiments at scale with crowdsourcing, build working systems, study users interacting with these systems, and perform thorough analyses of the results to gain insights.
+To carry out my research, I develop new methods, conduct human subject experiments at scale with crowdsourcing, build working systems, and study users interacting with these systems to gain insights.
 
 ## Sound Event Detection
 ![sonyc](/assets/images/sonyc.png){: .align-left height="250px" width="250px"}
