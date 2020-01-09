@@ -13,8 +13,8 @@ $sans-serif: jaf-bernina-sans, -apple-system, BlinkMacSystemFont, "Roboto", "Seg
 
 $type-size-1: 2.441em; // ~39.056px
 $type-size-2: 1.953em; // ~31.248px
-$type-size-3: 1.563em; // ~25.008px
-$type-size-4: 1.25em; // ~20px
+$type-size-3: 1.363em; // ~25.008px
+$type-size-4: 1.10em; // ~20px
 $type-size-5: 0.8em;//1em; // ~16px
 $type-size-6: 0.75em; // ~12px
 $type-size-7: 0.6875em; // ~11px
@@ -25,6 +25,43 @@ $twitter-color: #000000;
 @import url("https://use.typekit.net/ero0dbd.css"); // Adobe Fonts
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 2em 0 0.5em;
+  line-height: 1.2;
+  font-family: $header-font-family;
+  font-weight: 500;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: $type-size-3;
+}
+
+h2 {
+  font-size: $type-size-4;
+}
+
+h3 {
+  font-size: $type-size-5;
+}
+
+h4 {
+  font-size: $type-size-6;
+}
+
+h5 {
+  font-size: $type-size-6;
+}
+
+h6 {
+  font-size: $type-size-6;
+}
 
 .archive__subtitle {
   font-size: $type-size-4;
@@ -68,3 +105,4 @@ body {
 .site-title {
   font-weight: 500;
 }
+
