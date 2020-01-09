@@ -30,12 +30,10 @@ $twitter-color: #000000;
   font-size: $type-size-4;
 }
 
-.page__content li a {
-  text-decoration: none;
-  font-weight: 500;
-}
-
-a.citation {
+.archive__item-excerpt a,
+.page__content li a,
+a.citation,
+table a {
   text-decoration: none;
   font-weight: 500;
 }
@@ -65,11 +63,6 @@ address {
 body {
   font-weight: 300;
   font-style: normal;
-}
-
-.archive__item-excerpt a {
-  text-decoration: none;
-  font-weight: 500;
 }
 
 .site-title {
