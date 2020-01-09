@@ -14,7 +14,7 @@ taxonomy: Crowdsourced Audio Annotation and Quality Evaluation
       <div class="small entries-{{ page.entries_layout | default: 'list' }}">
           <p class="archive__item-excerpt" itemprop="description">
             <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i></a>
-            <a href="{{ post.permalink }}" style="text-decoration:none;">
+            <a href="{{ post.permalink }}">
             {{ post.citation }} </a>
           </p>
       </div>

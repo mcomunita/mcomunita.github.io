@@ -15,7 +15,7 @@ author_profile: true
       {% for post in year.items reversed %}
         <p class="archive__item-excerpt" itemprop="description">
           <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i></a>
-          <a href="{{ post.permalink }}" style="text-decoration:none;">
+          <a href="{{ post.permalink }}">
           {{ post.citation }} </a>
         </p>
       {% endfor %}
