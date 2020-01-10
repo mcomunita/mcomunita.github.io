@@ -8,7 +8,7 @@ date: 2019-10-01
 venue: 'Workshop on Detection and Classification of Acoustic Scenes and Events (DCASE)'
 paperurl: '/files/cartwright2019sonycust.pdf'
 image: '/assets/images/dcase-ust-taxonomy.png'
-imagewidth: 75.0
+imagewidth: 100.0
 poster: '/files/cartwright2019sonycust_poster.pdf'
 data: 'https://doi.org/10.5281/zenodo.3338310'
 dataname: 'SONYC-UST dataset'

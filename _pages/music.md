@@ -2,8 +2,6 @@
 layout: archive
 title: "Music"
 permalink: /music/
-classes:
-  - wide
 author_profile: true
 
 volcano_row:

@@ -9,7 +9,7 @@ venue: 'IEEE International Conference on Acoustics, Speech and Signal Processing
 paperurl: '/files/cartwright2018crowdsourcedpairwise.pdf'
 image: '/assets/images/pairwise_screenshot.png'
 imagealign: left
-imagewidth: 40.0
+imagewidth: 50.0
 poster: '/files/cartwright2018crowdsourcedpairwise_poster.pdf'
 code: 'https://github.com/interactiveaudiolab/CAQE'
 codename: 'CAQE'

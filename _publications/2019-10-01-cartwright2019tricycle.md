@@ -9,7 +9,7 @@ venue: 'IEEE Workshop on Applications of Signal Processing to Audio and Acoustic
 paperurl: '/files/cartwright2019tricycle.pdf'
 image: '/assets/images/tricycle_model.png'
 imagealign: left
-imagewidth: 33.0
+imagewidth: 50.0
 presentation: '/files/cartwright2019tricycle_presentation.pdf'
 categories: 
   - Sound Event Detection

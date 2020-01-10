@@ -9,7 +9,7 @@ venue: 'Sound and Music Computing Conference (SMC)'
 paperurl: '/files/huq2010crowdsourcing.pdf'
 image: '/assets/images/tunebot_iphone.png'
 imagealign: left
-imagewidth: 33.0
+imagewidth: 50.0
 data: 'http://goo.gl/VgwRz1'
 dataname: 'Tunebot dataset'
 categories: 

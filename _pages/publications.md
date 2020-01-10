@@ -1,7 +1,5 @@
 ---
 layout: single
-classes: 
-  - wide
 title: "Publications"
 permalink: /publications/
 author_profile: true
@@ -11,7 +9,7 @@ author_profile: true
 {% for year in postsByYear reversed %}
   <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>
-    <div class="small entries-{{ page.entries_layout | default: 'list' }}">
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
       {% for post in year.items reversed %}
         <p class="archive__item-excerpt" itemprop="description">
           <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i></a>

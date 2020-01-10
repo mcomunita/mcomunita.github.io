@@ -8,7 +8,7 @@ date: 2017-10-01
 venue: 'IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)'
 paperurl: '/files/salamon2017scaper.pdf'
 image: '/assets/images/scaper.png'
-imagewidth: 33.0
+imagewidth: 50.0
 code: 'https://github.com/justinsalamon/scaper'
 codename: 'Scaper'
 data: 'http://urbansed.weebly.com/'

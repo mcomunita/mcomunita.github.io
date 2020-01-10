@@ -1,8 +1,6 @@
 ---
 permalink: /software-and-data/
 layout: single
-classes: 
-  - wide
 title: "Software and Data"
 author_profile: true
 ---

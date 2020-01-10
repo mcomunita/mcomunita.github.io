@@ -9,7 +9,7 @@ venue: 'International Conference on Acoustics, Speech and Signal Processing (ICA
 paperurl: '/files/cartwright2016fast.pdf'
 image: '/assets/images/caqe_lab_and_web.png'
 imagealign: left
-imagewidth: 33.0
+imagewidth: 50.0
 poster: '/files/cartwright2016fast_poster.pdf'
 code: 'https://github.com/interactiveaudiolab/CAQE'
 codename: 'CAQE'

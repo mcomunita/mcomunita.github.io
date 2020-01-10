@@ -3,8 +3,6 @@ permalink: /research/
 layout: single
 title: "Research"
 author_profile: true
-classes: 
-  - wide
 ---
 
 The objective of my research is to build human-centered machine listening and audio processing systems that enable new interactions for observing the acoustic world and expressing oneself through sound. 

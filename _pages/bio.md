@@ -1,7 +1,5 @@
 ---
 layout: single
-classes: 
-  - wide
 title: "Bio"
 permalink: /
 author_profile: true

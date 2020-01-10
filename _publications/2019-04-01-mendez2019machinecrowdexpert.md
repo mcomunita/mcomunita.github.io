@@ -9,7 +9,7 @@ venue: 'ACM CHI Conference Extended Abstracts on Human Factors in Computing Syst
 paperurl: '/files/mendez2019machinecrowdexpert.pdf'
 image: '/assets/images/expert_crowd_machine.png'
 imagealign: left
-imagewidth: 25.0
+imagewidth: 33.0
 categories: 
   - Sound Event Detection
   - Crowdsourced Audio Annotation and Quality Evaluation
