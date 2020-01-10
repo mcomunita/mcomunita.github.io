@@ -94,7 +94,7 @@ address {
 
 .author__avatar {
   img {
-    max-width: 138px;
+    max-width: 178px;
 
     @include breakpoint($large) {
       padding: 0px;
