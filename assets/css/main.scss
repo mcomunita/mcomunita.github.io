@@ -22,8 +22,8 @@ $type-size-6: 1em; // ~12px
 $type-size-7: 1em; // ~11px
 $type-size-8: 0.6875em; // ~10px
 
-$twitter-color: #777;
-$github-color: #777;
+$twitter-color: $link-color;
+$github-color: $link-color;
 
 @import url("https://use.typekit.net/ero0dbd.css"); // Adobe Fonts
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
@@ -141,4 +141,8 @@ table {
   .visible-links {
     justify-content: left;
   }
+}
+
+.author__urls {
+  color: $link-color;
 }
