@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Bio"
 permalink: /
 author_profile: true
 redirect_from: 
@@ -8,6 +7,8 @@ redirect_from:
   - /bio.html
   - /about/
   - /about.html
+  - /home/
+  - /home.html
 ---
 I am Brooklyn-based computer scientist and musician. My [research](/research) lies at the intersection of human-computer interaction, machine learning, and audio signal processing. Specifically, I research human-centered machine listening and audio processing systems that enable new interactions for observing the acoustic world and creatively expressing through sound. 
 
