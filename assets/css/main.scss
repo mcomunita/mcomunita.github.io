@@ -24,6 +24,7 @@ $type-size-8: 0.6875em; // ~10px
 
 $twitter-color: $link-color;
 $github-color: $link-color;
+$linkedin-color: $link-color;
 
 @import url("https://use.typekit.net/ero0dbd.css"); // Adobe Fonts
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
