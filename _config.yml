@@ -116,15 +116,15 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=E7yqbEAAAAAJ&hl=en"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/markbcartwright/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/markbcartwright"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mcartwright"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/markbcartwright/"
 
 # Site Footer
 footer:
