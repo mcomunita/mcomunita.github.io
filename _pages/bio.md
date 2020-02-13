@@ -10,7 +10,7 @@ redirect_from:
   - /home/
   - /home.html
 ---
-I am Brooklyn-based computer scientist and musician. My [research](/research) lies at the intersection of human-computer interaction, machine learning, and audio signal processing. Specifically, I research human-centered machine listening and audio processing systems that enable new interactions for observing the acoustic world at scale and creatively expressing through sound. 
+I am Brooklyn-based computer scientist and musician. My [research](/research) lies at the intersection of human-computer interaction, machine learning, and audio signal processing. Specifically, I research human-centered machine listening and audio processing systems that enable new interactions for creative expression through sound and observing the acoustic world at scale. 
 
 I am currently a Research Assistant Professor in NYU’s [Department of Computer Science and Engineering](https://engineering.nyu.edu/academics/departments/computer-science-and-engineering) with affiliations to NYU’s [Music and Audio Research Lab](https://steinhardt.nyu.edu/marl/) and the [Center for Urban Science and Progress](http://cusp.nyu.edu/). I completed my PhD in computer science at Northwestern University as a member of the [Interactive Audio Lab](http://music.eecs.northwestern.edu/), and I hold a Master of Arts from Stanford University ([CCRMA](https://ccrma.stanford.edu/)) and a Bachelor of Music from Northwestern University.  Before my current position, I spent two years as a postdoctoral researcher in the Music and Audio Research Lab (MARL) at New York University (NYU). 
 
