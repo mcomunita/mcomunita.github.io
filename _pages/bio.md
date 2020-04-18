@@ -18,7 +18,7 @@ As a [musician](/music), I exercise my passion for low frequencies, enveloping n
 
 News
 -------
-{% for post in site.posts reversed limit:5  %}
+{% for post in site.posts limit:5  %}
   <b>{{ post.date | date: "%B %Y"}}</b> - {{ post.blurb }}
 {% endfor %}
 
