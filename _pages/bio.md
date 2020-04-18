@@ -16,6 +16,13 @@ I am currently a Research Assistant Professor in NYU’s [Department of Computer
 
 As a [musician](/music), I exercise my passion for low frequencies, enveloping noise, and textural sound using computers, synthesizers, and bass. With experimental-rock trio [volcano!](https://volcanoisaband.com/), I released albums on The Leaf Label and toured the United States and Europe.
 
+News
+-------
+{% for post in site.posts reversed limit:5  %}
+  <b>{{ post.date | date: "%B %Y"}}</b> - {{ post.blurb }}
+{% endfor %}
+
+
 Current Affiliations
 -------
 * [Department of Computer Science and Engineering (CSE)](https://engineering.nyu.edu/academics/departments/computer-science-and-engineering)
