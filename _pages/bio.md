@@ -17,7 +17,7 @@ I am currently a Research Assistant Professor in NYU’s [Department of Computer
 News
 -------
 {% for post in site.posts limit:5  %}
-  <b>{{ post.date | date: "%B %Y"}}</b> - {{ post.blurb }}
+  <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.date | date: "%B %Y"}}</a> - {{ post.blurb }}
 {% endfor %}
 
 
