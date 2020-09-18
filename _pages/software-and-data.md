@@ -7,6 +7,7 @@ author_profile: true
 
 | Data | |
 |-|:-
+| <a href="https://doi.org/10.5281/zenodo.3966543">SONYC-UST-V2</a> | SONYC-UST-V2: An Urban Sound Tagging Dataset with Spatiotemporal Context
 | <a href="https://doi.org/10.5281/zenodo.3693077">SONYC-UST</a> | SONYC Urban Sound Tagging (SONYC-UST): a multilabel dataset from an urban acoustic sensor network 
 | <a href="http://urbansed.weebly.com/">URBAN-SED</a> | 10,000 synthesized soundscapes with strong annotations
 | <a href="https://doi.org/10.5281/zenodo.1251982">VocalSketch</a> | Vocal imitations of a large set of diverse sounds
