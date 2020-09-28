@@ -33,9 +33,9 @@ Current Affiliations
 Contact
 -------
 <address>
-    Center for Urban Science and Progress<br />
-    New York University<br />
-    13th Floor<br />
+    Centre for Digital Music (C4DM)<br />
+    Queen Mary University of London<br />
+    Mile End<br />
     370 Jay Street<br />
     Brooklyn, NY 11201
 </address>

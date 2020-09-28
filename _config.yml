@@ -15,19 +15,20 @@ remote_theme             : "mmistakes/minimal-mistakes@4.17.2"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "MARK CARTWRIGHT"
+locale                   : "en-GB"
+title                    : "Marco Comunita'"
 title_separator          : "|"
-subtitle                 : #"HCI / Machine Learning / Audio" site tagline that appears below site title in masthead
-name                     : "Mark Cartwright"
-description              : "Mark Cartwright is a research assistant professor at NYU whose work is at the intersection of HCI, machine learning, and audio."
-url                      : "https://markcartwright.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : # "HCI / Machine Learning / Audio" # site tagline that appears below site title in masthead
+name                     : "Marco Comunità"
+description              : "Marco Comunità is a PhD student at QMUL whose work is at the intersection of artificial intelligence and audio"
+url                      : "https://mcomunita.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "mcartwright/mcartwright.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "mcomunita/mcomunita.github.io.git" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false # true, false (default)
+show_date                : false
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -76,6 +77,7 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -99,54 +101,55 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-61806107-1"
+    tracking_id          : # "UA-61806107-1"
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Mark Cartwright"
-  avatar           : "/assets/images/cartwright-bio-photo.png"
-  bio              : "Research Assistant Professor<br />New York University<br /><br /><i>Assistant Professor</i><br /><i>New Jersey Institute of Technology</i><br /><i>Starting January 2021</i>"
-  location         : "Brooklyn, NY"
-  email            : "mcartwright@gmail.com"
+  name              : "Marco Comunità"
+  avatar            : # "/assets/images/cartwright-bio-photo.png"
+  bio               : "PhD student<br />
+                      Queen Mary University of London<br />"
+  location          : "London, UK"
+  email             : "m.comunita@qmul.ac.uk"
   links:
-    - label: "Google Scholar"
-      icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=E7yqbEAAAAAJ&hl=en"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/markbcartwright/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/markbcartwright"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mcartwright"
+    - label         : "Google Scholar"
+      icon          : "fas fa-fw fa-graduation-cap"
+      url           : "https://scholar.google.co.uk/citations?user=v4NK-A0AAAAJ&hl=en"
+    - label         : "LinkedIn"
+      icon          : "fab fa-fw fa-linkedin"
+      url           : "https://www.linkedin.com/in/marcocomunita/"
+    - label         : "Twitter"
+      icon          : "fab fa-fw fa-twitter-square"
+      url           :
+    - label         : "GitHub"
+      icon          : "fab fa-fw fa-github"
+      url           : "https://github.com/mcomunita"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    - label         : "Twitter"
+      icon          : "fab fa-fw fa-twitter-square"
+      url           :
+    - label         : "Facebook"
+      icon          : "fab fa-fw fa-facebook-square"
+      url           :
+    - label         : "GitHub"
+      icon          : "fab fa-fw fa-github"
+      url           :
+    - label         : "GitLab"
+      icon          : "fab fa-fw fa-gitlab"
+      url           :
+    - label         : "Bitbucket"
+      icon          : "fab fa-fw fa-bitbucket"
+      url           :
+    - label         : "Instagram"
+      icon          : "fab fa-fw fa-instagram"
+      url           :
 
 
 # Reading Files
