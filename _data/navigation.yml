@@ -2,13 +2,13 @@
 main:
    - title: "Home"
      url: /bio/
-   - title: "Research"
-     url: /research/
+  #  - title: "Research"
+  #    url: /research/
    - title: "Publications"
      url: /publications/
-   - title: "Software and Data"
-     url: /software-and-data/
+  #  - title: "Projects"
+  #    url: /projects/ 
    - title: "Music"
      url: /music/
    - title: "CV"
-     url: /files/cv.pdf
+     url: /files/2020-CV01-MarcoComunita-Academic.pdf

@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "en-GB"
 title                    : "Marco Comunita'"
 title_separator          : "|"
-subtitle                 : # "HCI / Machine Learning / Audio" # site tagline that appears below site title in masthead
+subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Marco Comunità"
 description              : "Marco Comunità is a PhD student at QMUL whose work is at the intersection of artificial intelligence and audio"
 url                      : "https://mcomunita.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -36,8 +36,7 @@ comments:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
+  facebook               : # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
@@ -110,9 +109,12 @@ analytics:
 # Site Author
 author:
   name              : "Marco Comunità"
-  avatar            : # "/assets/images/cartwright-bio-photo.png"
+  avatar            : "/assets/images/marco_icon.png"
   bio               : "PhD student<br />
-                      Queen Mary University of London<br />"
+                      UKRI CdT in Artificial Intelligence and Music<br />
+                      Queen Mary University of London<br /><br />
+                      Research Assistant<br />
+                      Imperial College London"
   location          : "London, UK"
   email             : "m.comunita@qmul.ac.uk"
   links:

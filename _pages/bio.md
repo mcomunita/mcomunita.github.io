@@ -10,32 +10,34 @@ redirect_from:
   - /home/
   - /home.html
 ---
-My [research](/research) lies at the intersection of human-computer interaction, machine learning, and audio signal processing. Specifically, I research human-centered machine listening and audio processing tools for creative expression with sound and understanding the acoustic world. 
+I am a PhD student in the [**Centre for Digital Music**](http://c4dm.eecs.qmul.ac.uk/) at **Queen Mary University of London** where - as a member of the [**UKRI Centre for Doctoral Training in AI and Music**](https://www.aim.qmul.ac.uk/) - I am working on Neural Synthesis of Sound Effects under the supervision of [**Joshua Reiss**](http://www.eecs.qmul.ac.uk/~josh/).
 
-I am currently a Research Assistant Professor in NYU’s [Department of Computer Science and Engineering](https://engineering.nyu.edu/academics/departments/computer-science-and-engineering) with affiliations to NYU’s [Music and Audio Research Lab](https://steinhardt.nyu.edu/marl/) and the [Center for Urban Science and Progress](http://cusp.nyu.edu/). I completed my PhD in computer science at Northwestern University as a member of the [Interactive Audio Lab](http://music.eecs.northwestern.edu/), and I hold a Master of Arts from Stanford University ([CCRMA](https://ccrma.stanford.edu/)) and a Bachelor of Music from Northwestern University.  Before my current position, I spent two years as a postdoctoral researcher in the Music and Audio Research Lab (MARL) at New York University (NYU). 
+I am also collaborating with the [**Audio Experience Design Lab**](https://www.imperial.ac.uk/design-engineering/research/audio-experience-design/) at Imperial College London, working with [**Lorenzo Picinali**](https://www.imperial.ac.uk/people/l.picinali) on 3D audio and headphones acoustics.
 
-Starting in January 2021, I will be an Assistant Professor at NJIT's [Ying Wu College of Computing](https://computing.njit.edu/) in the Department of Informatics. I will be recruiting PhD students for Fall 2021.
+I have a past as guitar amplifiers designer and project engineer for [**Blackstar Amps**](https://www.blackstaramps.com/uk), where I had fun with high-voltage valve amps, low-voltage amps and pedals, as well as helping to model analogue circuits.
 
-News
+Back in Italy, I used to design and hand-build [overdrive](https://www.youtube.com/watch?v=shVymc6jDc8&t=71s) and [distortion](https://www.youtube.com/watch?v=mcvmgSm_9xI) pedals as [**Mad Hatter Stompboxes**](http://www.effectsdatabase.com/model/madhatter#pictures)
+
+I hold a BEng in Computer Engineering and an MEng in Electronic Engineering from [**Sapienza University of Rome**](https://www.uniroma1.it/en) and a MSc in Sound and Music Computing from [**Queen Mary University of London**](https://www.qmul.ac.uk/).
+
+<!-- News
 -------
 {% for post in site.posts limit:5  %}
   <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.date | date: "%B %Y"}}</a> - {{ post.blurb }}
-{% endfor %}
+{% endfor %} -->
 
 
 Current Affiliations
 -------
-* [Department of Computer Science and Engineering (CSE)](https://engineering.nyu.edu/academics/departments/computer-science-and-engineering)
-* [Music and Audio Research Lab (MARL)](http://steinhardt.nyu.edu/marl/)
-* [Center for Urban Science and Progress (CUSP)](http://cusp.nyu.edu/)
-* [Sounds of New York City Project (SONYC)](http://wp.nyu.edu/sonyc)
+* [Centre for Digital Music (C4DM) - QMUL](http://c4dm.eecs.qmul.ac.uk/)
+* [Audio Experience Design Lab - ICL](https://www.imperial.ac.uk/design-engineering/research/audio-experience-design/)
 
 Contact
 -------
 <address>
-    Centre for Digital Music (C4DM)<br />
-    Queen Mary University of London<br />
-    Mile End<br />
-    370 Jay Street<br />
-    Brooklyn, NY 11201
+  Centre for Digital Music (C4DM)<br />
+  School of Electronic Engineering and Computer Science<br />
+  Queen Mary University of London<br />
+  Mile End Road<br />
+  London E1 4NS<br />
 </address>

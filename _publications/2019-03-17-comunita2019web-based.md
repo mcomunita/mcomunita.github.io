@@ -9,7 +9,7 @@ abstract      : "This paper introduces PlugSonic Soundscape and PlugSonic Sample
 date          : 2019-03-17
 venue         : '2019 AES International Conference on Immersive and Interactive Audio (March 2019)'
 paperurl      : '/files/comunita2019web-based-paper.pdf'
-image         : '/files/comunita2019web-based.png'
+image         : '/files/comunita2019web-based-image.png'
 imagewidth    : 100.0
 poster        : '/files/comunita2019web-based-poster.pdf'
 presentation  : 
