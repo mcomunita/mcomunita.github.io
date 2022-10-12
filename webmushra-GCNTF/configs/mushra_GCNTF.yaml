@@ -1,0 +1,190 @@
+testname: webMUSHRA GCNTF
+testId: GCNTF
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+pages:
+  - type: generic
+    id: welcome
+    name: Welcome to the fuzz and compressor modelling evaluation!
+    content: >
+      <head>
+      <style>
+      li {width: 100%; margin: 0;}
+      </style>
+      </head>
+      <body>
+      # <img style="width: 80%;" src="configs/resources/images/la-2a-no-branding.jpg"><br>
+      In this evaluation you will be asked to compare different emulations of fuzz and compressor effects against the originals. <br> 
+      There are a total of 6 listening examples and the test should take <b>less than 15 minutes</b> to complete. <br><br>
+      On each page you will be presented with a reference from the original effect<br>
+      You will be tasked with listening to and comparing the different emulations, <br> rating each on a scale from 0 to 100 based on their similtiary to the reference. <br><br>
+      <hr>
+      Terms of Participation <br><br>
+      <div style="font-size: 12px; text-align: left; width: 100%; margin: 0;">
+        Should you wish to participate in the study, please consider the following statements. Pressing <b>Next</b> below confirms that you are willing to participate in this research, however you are reminded that you are free to end your participation at any time during the study and your responses will not be recorded.  
+        <ol>
+          # <li>I confirm that I have read the <a href="configs/resources/pages/info.html" target=blank_>Participant Information Sheet</a> dated 22.01.2021 V1 for the above study; or it has been read to me. I have had the opportunity to consider the information, ask questions and have had these answered satisfactorily.</li>
+          <li>I understand that my participation is voluntary and that I am free to stop taking part in the study at any time without giving any reason and without my rights being affected. </li>
+          <li>I understand that my data will be accessed by the investigator. </li>
+          <li>I understand that my data will be securely stored in Queen Mary Univesity of London and in accordance with the data protection guidelines of the Queen Mary University of London until July 2022 in fully anonymised form. </li>
+          <li>I understand that I can access the information I have provided and request destruction of that information at any time prior to anonymisation. I understand that following anonymisation I will not be able to request withdrawal of the information I have provided. </li>
+          <li>I understand that the researcher will not identify me in any publications and other study outputs using personal information obtained from this study. </li>
+          <li>I understand that the responses collected in this study may be used to support other research in the future, and may be shared in anonymised form with other researchers. </li>
+          <li>I agree to take part in the above study. 
+        </ol>
+        Participants should read Queen Mary’s privacy notice for research participants which contains important information about your personal data and your rights in this respect.
+        If you have any questions relating to data protection, please contact Data Protection Officer, Queens’ Building, Mile End Road, London, E1 4NS or data-protection@qmul.ac.uk or 020 7882 7596.
+        No information regarding participants identity will be recorded. Please direct any questions to Marco Comunità at m.comunita@qmul.ac.uk.
+        <br><br>
+        By pressing the <b>Next</b> button below you affirm the above points and ackonwledge this as the equivalent of your signature.
+      </div>
+      <hr>
+      </body>
+  
+  - type: mushra
+    id: training
+    name: MUSHRA
+    content: <b> This is an example of the test interface.</b> <br> You will be provided with a reference at the top of the page. The task is then to rate the stimuli below based on their quality compared to the reference. You are then able to seamlessly switch between the different examples and the reference. Adjust the sliders for each example to rate the quality and try to use the entire scale. A perfect score should constitute a signal that exactly matches the reference. Note that this page is just a demo, press Next when you are ready to begin. <br><br><b>Warning - some samples might be loud. Make sure to lower the volume before playing and then adjust to comfortable level.</b>
+    showWaveform: true
+    enableLooping: true 
+    reference: configs/resources/audio/numbers/0.wav
+    createAnchor35: false
+    createAnchor70: false
+    stimuli:
+        C1: configs/resources/audio/numbers/1.wav
+        C2: configs/resources/audio/numbers/2.wav
+        C3: configs/resources/audio/numbers/3.wav
+  - 
+    - random
+    - type: mushra
+      id: q1-fuzz250
+      name: MUSHRA
+      content: Listen to the reference. Then compare the six conditions. <br> Rate each based on its audio quality compared to the reference. Use the entire scale from 0 to 100. The worse sounding condition should be below 20.
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/GCNTF/fuzz250ms-ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+        C1: configs/resources/audio/GCNTF/fuzz250ms-lstm96.wav
+        C2: configs/resources/audio/GCNTF/fuzz250ms-gcn3.wav
+        C3: configs/resources/audio/GCNTF/fuzz250ms-gcn2500.wav
+        C4: configs/resources/audio/GCNTF/fuzz250ms-gcntf3.wav
+        C5: configs/resources/audio/GCNTF/fuzz250ms-gcntf2500.wav
+    - type: mushra
+      id: q2-fuzz2500
+      name: MUSHRA
+      content: Listen to the reference. Then compare the six conditions. <br> Rate each based on its audio quality compared to the reference. Use the entire scale from 0 to 100. The worse sounding condition should be below 20.
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/GCNTF/fuzz2500ms-ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+        C1: configs/resources/audio/GCNTF/fuzz2500ms-lstm96.wav
+        C2: configs/resources/audio/GCNTF/fuzz2500ms-gcn3.wav
+        C3: configs/resources/audio/GCNTF/fuzz2500ms-gcn2500.wav
+        C4: configs/resources/audio/GCNTF/fuzz2500ms-gcntf3.wav
+        C5: configs/resources/audio/GCNTF/fuzz2500ms-gcntf2500.wav
+    - type: mushra
+      id: q3-comp250
+      name: MUSHRA
+      content: Listen to the reference. Then compare the six conditions. <br> Rate each based on its audio quality compared to the reference. Use the entire scale from 0 to 100. The worse sounding condition should be below 20.
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/GCNTF/comp250ms-ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+        C1: configs/resources/audio/GCNTF/comp250ms-lstm96.wav
+        C2: configs/resources/audio/GCNTF/comp250ms-gcn3.wav
+        C3: configs/resources/audio/GCNTF/comp250ms-gcn2500.wav
+        C4: configs/resources/audio/GCNTF/comp250ms-gcntf3.wav
+        C5: configs/resources/audio/GCNTF/comp250ms-gcntf2500.wav
+    - type: mushra
+      id: q4-comp2500
+      name: MUSHRA
+      content: Listen to the reference. Then compare the six conditions. <br> Rate each based on its audio quality compared to the reference. Use the entire scale from 0 to 100. The worse sounding condition should be below 20.
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/GCNTF/comp2500ms-ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+        C1: configs/resources/audio/GCNTF/comp2500ms-lstm96.wav
+        C2: configs/resources/audio/GCNTF/comp2500ms-gcn3.wav
+        C3: configs/resources/audio/GCNTF/comp2500ms-gcn2500.wav
+        C4: configs/resources/audio/GCNTF/comp2500ms-gcntf3.wav
+        C5: configs/resources/audio/GCNTF/comp2500ms-gcntf2500.wav
+    - type: mushra
+      id: q5-mcomp1000
+      name: MUSHRA
+      content: Listen to the reference. Then compare the six conditions. <br> Rate each based on its audio quality compared to the reference. Use the entire scale from 0 to 100. The worse sounding condition should be below 20.
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/GCNTF/mcomp1000ms-ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+        C1: configs/resources/audio/GCNTF/mcomp1000ms-lstm32.wav
+        C2: configs/resources/audio/GCNTF/mcomp1000ms-gcn3.wav
+        C3: configs/resources/audio/GCNTF/mcomp1000ms-gcn2500.wav
+        C4: configs/resources/audio/GCNTF/mcomp1000ms-gcntf3.wav
+        C5: configs/resources/audio/GCNTF/mcomp1000ms-gcntf2500.wav
+    - type: mushra
+      id: q6-la2a
+      name: MUSHRA
+      content: Listen to the reference. Then compare the six conditions. <br> Rate each based on its audio quality compared to the reference. Use the entire scale from 0 to 100. The worse sounding condition should be below 20.
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/GCNTF/la2a-ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+        C1: configs/resources/audio/GCNTF/la2a-lstm96.wav
+        C2: configs/resources/audio/GCNTF/la2a-gcn3.wav
+        C3: configs/resources/audio/GCNTF/la2a-gcn2500.wav
+        C4: configs/resources/audio/GCNTF/la2a-gcntf3.wav
+        C5: configs/resources/audio/GCNTF/la2a-gcntf2500.wav
+
+  - type: finish
+    name: Almost finished!
+    content: Please answer the following and then press the button to submit your results.
+    showResults: false
+    writeResults: true
+    questionnaire:
+      - type: likert
+        name: listening
+        label: Have you participated in a listening study previously?
+        response:
+        - value: yes
+          label: Yes
+        - value: no
+          label: No
+      - type: likert
+        name: experience
+        label: Do you have any experience with audio engineering (recording/mixing/mastering/production)?
+        response:
+        - value: yes
+          label: Yes
+        - value: no
+          label: No
+      - type: likert
+        name: fuzz
+        label: Are you familar with fuzz audio effects?
+        response:
+        - value: yes
+          label: Yes
+        - value: no
+          label: No
+      - type: likert
+        name: comp
+        label: Are you familar with compressor audio effects?
+        response:
+        - value: yes
+          label: Yes
+        - value: no
+          label: No
