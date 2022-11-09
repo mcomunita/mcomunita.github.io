@@ -17,6 +17,6 @@ code            :
 data            : 
 dataname        : 
 categories      : 
-citation        : 'Comunità, M., Gerino, A., Lim, V., Picinali, L. <b>"Web-based binaural audio and sonic narratives for cultural heritage"</b> - <i>Audio Engineering Society Conference: 2019 AES International Conference on Immersive and Interactive Audio. Audio Engineering Society, 2019</i>'
+citation        : 'Comunità, M., Gerino, A., Lim, V., Picinali, L. <b>"Web-based Binaural Audio and Sonic Narratives for Cultural Heritage"</b> - <i>Audio Engineering Society Conference: 2019 AES International Conference on Immersive and Interactive Audio. Audio Engineering Society, 2019</i>'
 author_profile  : true
 ---

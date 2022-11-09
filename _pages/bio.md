@@ -30,7 +30,6 @@ I hold a BEng in Computer Engineering and an MEng in Electronic Engineering from
 Current Affiliations
 -------
 * [Centre for Digital Music (C4DM) - QMUL](http://c4dm.eecs.qmul.ac.uk/)
-* [Audio Experience Design Lab - ICL](https://www.imperial.ac.uk/design-engineering/research/audio-experience-design/)
 
 Contact
 -------

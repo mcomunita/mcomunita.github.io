@@ -20,6 +20,6 @@ dataname        :
 webpage         : 'https://pluggy.eu/'
 webpagename     : 'https://pluggy.eu/'
 categories      : 
-citation        : 'Comunità, M. and Gerino, A. and Picinali, L. <b>"PlugSonic: a web-and mobile-based platform for dynamic and navigable binaural audio"</b> - <i>EURASIP Journal on Audio, Speech, and Music Processing</i>'
+citation        : 'Comunità, M. and Gerino, A. and Picinali, L. <b>"PlugSonic: a Web-and Mobile-based Platform for Dynamic and Navigable Binaural Audio"</b> - <i>EURASIP Journal on Audio, Speech, and Music Processing</i>'
 author_profile  : true
 ---

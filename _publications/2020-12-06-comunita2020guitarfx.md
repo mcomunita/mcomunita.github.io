@@ -20,6 +20,6 @@ dataname        : 'GUITAR-FX-DIST'
 webpage         : 'https://mcomunita.github.io/gfx-classifier_page/'
 webpagename     : 'https://mcomunita.github.io/gfx-classifier_page/'
 categories      :  
-citation        : 'Comunità, M., Stowell, D., Reiss, Joshua D. <b>"Guitar Effects Recognition and Parameter Estimation with Convolutional Neural Networks"</b> - <i>arXiv preprint arXiv:2012.03216</i>'
+citation        : 'Comunità, M., Stowell, D., Reiss, J. D. <b>"Guitar Effects Recognition and Parameter Estimation with Convolutional Neural Networks"</b> - <i>arXiv preprint arXiv:2012.03216</i>'
 author_profile  : true
 ---
