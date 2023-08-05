@@ -1,6 +1,6 @@
 ---
 layout          : default-publication
-title           : "PlugSonic: a web- and mobile-based platform for binaural audio and sonic narratives"
+title           : "PlugSonic: a Web- and Mobile-based Platform for Binaural Audio and Sonic Narratives"
 collection      : publications
 permalink       : /publications/2020-08-11-comunita2020plugsonic
 
@@ -17,6 +17,6 @@ code            :
 data            : 
 dataname        : 
 categories      : 
-citation        : 'Comunità, M., Gerino, A., Lim, V., Picinali, L. <b>"PlugSonic: a web- and mobile-based platform for binaural audio and sonic narratives"</b> - <i>arXiv preprint arXiv:2008.04638</i>'
+citation        : 'Comunità, M., Gerino, A., Lim, V., Picinali, L. <b>"PlugSonic: a Web- and Mobile-based Platform for Binaural Audio and Sonic Narratives"</b> - <i>arXiv preprint arXiv:2008.04638</i>'
 author_profile  : true
 ---

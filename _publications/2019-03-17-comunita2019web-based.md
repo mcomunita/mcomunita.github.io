@@ -1,6 +1,6 @@
 ---
 layout          : default-publication
-title           : "Web-based binaural audio and sonic narratives for cultural heritage."
+title           : "Web-based Binaural Audio and Sonic Narratives for Cultural Heritage"
 collection      : publications
 permalink       : /publications/2019-03-17-comunita2019web-based
 

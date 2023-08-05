@@ -1,6 +1,6 @@
 ---
 layout        : default-publication
-title         : "PlugSonic: a web- and mobile-based platform for dynamic and navigable binaural audio"
+title         : "PlugSonic: a Web-and Mobile-based Platform for Dynamic and Navigable Binaural Audio"
 collection    : publications
 permalink     : /publications/2022-07-15-comunita2022plugsonic
 
