@@ -10,9 +10,9 @@ redirect_from:
   - /home/
   - /home.html
 ---
-I am a PhD student in the [**Centre for Digital Music**](http://c4dm.eecs.qmul.ac.uk/) at **Queen Mary University of London** where - as a member of the [**UKRI Centre for Doctoral Training in AI and Music**](https://www.aim.qmul.ac.uk/) - I am working on Audio Effects Modelling and Neural Synthesis of Sound Effects under the supervision of [**Joshua Reiss**](http://www.eecs.qmul.ac.uk/~josh/).
+I am a PhD researcher in the [**Centre for Digital Music**](http://c4dm.eecs.qmul.ac.uk/) at **Queen Mary University of London** where - as a member of the [**UKRI Centre for Doctoral Training in AI and Music**](https://www.aim.qmul.ac.uk/) - I am working on Audio Effects Modelling and Neural Synthesis of Sound Effects under the supervision of [**Joshua Reiss**](http://www.eecs.qmul.ac.uk/~josh/).
 
-I am also collaborating with the [**Audio Experience Design Lab**](https://www.imperial.ac.uk/design-engineering/research/audio-experience-design/) at Imperial College London, working with [**Lorenzo Picinali**](https://www.imperial.ac.uk/people/l.picinali) on 3D audio and headphones acoustics.
+I was research assistant in the [**Audio Experience Design Lab**](https://www.imperial.ac.uk/design-engineering/research/audio-experience-design/) at **Imperial College London**, working with [**Lorenzo Picinali**](https://www.imperial.ac.uk/people/l.picinali) on 3D audio and headphones acoustics.
 
 I have a past as guitar amplifiers designer and project engineer for [**Blackstar Amps**](https://www.blackstaramps.com/uk), where I had fun with high-voltage valve amps, low-voltage amps and pedals, as well as helping to model analogue circuits.
 

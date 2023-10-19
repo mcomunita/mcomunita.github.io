@@ -20,6 +20,6 @@ dataname        :
 webpage         : 'https://christhetr.ee/mod_extraction/'
 webpagename     : 'https://christhetr.ee/mod_extraction/'
 categories      : 
-citation        : 'Mitcheltree, C., Steinmetz, C. J., Comunità, M., Reiss, J. D. <b>"Modulation Extraction for LFO-driven Audio Effects"</b> - <i>arXiv preprint arXiv:2305.13262</i>'
+citation        : 'Mitcheltree, C., Steinmetz, C. J., Comunità, M., Reiss, J. D. <b>"Modulation Extraction for LFO-driven Audio Effects"</b> - <i>DAFX 2023 - International Conference on Digital Audio Effects (DAFx23)</i>'
 author_profile  : true
 ---
