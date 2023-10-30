@@ -20,6 +20,6 @@ dataname        :
 webpage         : 'https://mcomunita.github.io/diffusion-sfx_page/'
 webpagename     : 'https://mcomunita.github.io/diffusion-sfx_page/'
 categories      : 
-citation        : 'Comunità, M., Gramaccioni, R. F., Postolache, E., Rodolà, E., Comminiello, D., Reiss, J. D. <b>"SyncFusion: Multimodal Onset-synchronized Video-to-Audio Foley Synthesis"</b> - <i>submitted to ICASSP 2024 - arXiv preprint arXiv:2310.15247</i>'
+citation        : 'Comunità, M., Gramaccioni, R. F., Postolache, E., Rodolà, E., Comminiello, D., Reiss, J. D. <b>"SyncFusion: Multimodal Onset-synchronized Video-to-Audio Foley Synthesis"</b> - <i>arXiv preprint arXiv:2310.15247. Submitted to ICASSP 2024.</i>'
 author_profile  : true
 ---

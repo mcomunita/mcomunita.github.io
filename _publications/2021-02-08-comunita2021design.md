@@ -20,6 +20,6 @@ dataname        : 'Supplementary Material'
 webpage         : 'https://pluggy.eu/'
 webpagename     : 'https://pluggy.eu/'
 categories      : 
-citation        : 'Comunità, M., Gerino, A., Lim, V., & Picinali, L. <b>"Design and Evaluation of a Web-and Mobile-Based Binaural Audio Platform for Cultural Heritage"</b> - <i>Applied Sciences, 11(4), 1540. 2021.</i>'
+citation        : 'Comunità, M., Gerino, A., Lim, V., & Picinali, L. <b>"Design and Evaluation of a Web-and Mobile-Based Binaural Audio Platform for Cultural Heritage"</b> - <i>Applied Sciences. 11(4), 1540. 2021.</i>'
 author_profile  : true
 ---

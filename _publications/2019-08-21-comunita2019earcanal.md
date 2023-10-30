@@ -8,7 +8,7 @@ abstract        : "The acoustics of the external ear has been extensively studie
 
 date            : 2019-08-21
 venue           : '2019 AES INTERNATIONAL CONFERENCE ON HEADPHONE TECHNOLOGY (August 2019)'
-paperurl        : 
+paperurl        : 'https://www.aes.org/e-lib/browse.cfm?elib=20521'
 image           : '/files/comunita2019earcanal-image.jpg'
 imagewidth      : 100.0
 poster          : 
@@ -17,6 +17,6 @@ code            :
 data            : 
 dataname        : 
 categories      : 
-citation        : 'Comunità, M. and Picinali, L. <b>"Estimating Ear Canal Volume through Electrical Impedance Measurements from In-Ear Headphones — Initial Results"</b> - <i>Audio Engineering Society Conference: 2019 AES International Conference on Headphone Technology. Audio Engineering Society, 2019.</i>'
+citation        : 'Comunità, M. and Picinali, L. <b>"Estimating Ear Canal Volume through Electrical Impedance Measurements from In-Ear Headphones — Initial Results"</b> - <i>Audio Engineering Society International Conference on Headphone Technology. August, 2019.</i>'
 author_profile  : true
 ---

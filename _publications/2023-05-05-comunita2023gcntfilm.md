@@ -20,6 +20,6 @@ dataname        : 'dataset'
 webpage         : 'https://mcomunita.github.io/gcn-tfilm_page/'
 webpagename     : 'https://mcomunita.github.io/gcn-tfilm_page/'
 categories      : 
-citation        : 'Comunità, M., Steinmetz, C. J., Phan, H., Reiss, J. D. <b>"Modelling Black-box Audio Effects with Time-varying Feature Modulation"</b> - <i>ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing</i>'
+citation        : 'Comunità, M., Steinmetz, C. J., Phan, H., Reiss, J. D. <b>"Modelling Black-box Audio Effects with Time-varying Feature Modulation"</b> - <i>IEEE International Conference on Acoustics, Speech and Signal Processing. ICASSP 2023.</i>'
 author_profile  : true
 ---

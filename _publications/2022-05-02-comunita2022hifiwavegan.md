@@ -20,6 +20,6 @@ dataname        :
 webpage         : 'https://mcomunita.github.io/hifi-wavegan-footsteps_page/'
 webpagename     : 'https://mcomunita.github.io/hifi-wavegan-footsteps_page/'
 categories      : 
-citation        : 'Comunità, M., Phan, H., Reiss, J. D. <b>"Neural Synthesis of Footsteps Sound Effects with Generative Adversarial Networks"</b> - <i>Audio Engineering Society Convention 152. May, 2022</i>'
+citation        : 'Comunità, M., Phan, H., Reiss, J. D. <b>"Neural Synthesis of Footsteps Sound Effects with Generative Adversarial Networks"</b> - <i>Audio Engineering Society Convention 152. May, 2022.</i>'
 author_profile  : true
 ---
