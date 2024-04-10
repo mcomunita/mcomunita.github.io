@@ -2,7 +2,7 @@
 layout        : default-publication
 title         : "Modelling Black-box Audio Effects with Time-varying Feature Modulation"
 collection    : publications
-permalink     : /publications/2023-05-05-comunita2022gcntfilm
+permalink     : /publications/2023-05-05-comunita2023gcntfilm
 
 abstract      : "Deep learning approaches for black-box modelling of audio effects have shown promise, however, the majority of existing work focuses on nonlinear effects with behaviour on relatively short time-scales, such as guitar amplifiers and distortion. While recurrent and convolutional architectures can theoretically be extended to capture behaviour at longer time scales, we show that simply scaling the width, depth, or dilation factor of existing architectures does not result in satisfactory performance when modelling audio effects such as fuzz and dynamic range compression. To address this, we propose the integration of time-varying feature-wise linear modulation into existing temporal convolutional backbones, an approach that enables learnable adaptation of the intermediate activations. We demonstrate that our approach more accurately captures long-range dependencies for a range of fuzz and compressor implementations across both time and frequency domain metrics. We provide sound examples, source code, and pretrained models to faciliate reproducibility"
 
