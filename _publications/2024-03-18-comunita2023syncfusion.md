@@ -17,8 +17,8 @@ code            :
 codename        : 
 data            : 
 dataname        : 
-webpage         : 'https://mcomunita.github.io/diffusion-sfx_page/'
-webpagename     : 'https://mcomunita.github.io/diffusion-sfx_page/'
+webpage         : 'https://mcomunita.github.io/syncfusion-webpage/'
+webpagename     : 'https://mcomunita.github.io/syncfusion-webpage/'
 categories      : 
 citation        : 'Comunità, M., Gramaccioni, R. F., Postolache, E., Rodolà, E., Comminiello, D., Reiss, J. D. <b>"SyncFusion: Multimodal Onset-synchronized Video-to-Audio Foley Synthesis"</b> - <i>IEEE International Conference on Acoustics, Speech and Signal Processing. ICASSP 2024.</i>'
 author_profile  : true
