@@ -13,8 +13,8 @@ image           : '/files/comunita2024syncfusion-image.png'
 imagewidth      : 80.0
 poster          : 
 presentation    : 
-code            : 
-codename        : 
+code            : "https://github.com/mcomunita/syncfusion"
+codename        : "https://github.com/mcomunita/syncfusion"
 data            : 
 dataname        : 
 webpage         : 'https://mcomunita.github.io/syncfusion-webpage/'
