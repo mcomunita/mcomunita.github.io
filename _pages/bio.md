@@ -27,7 +27,7 @@ I hold a BEng in Computer Engineering and an MEng in Electronic Engineering from
 {% endfor %} -->
 
 
-Current Affiliations
+<!-- Current Affiliations
 -------
 * [Centre for Digital Music (C4DM) - QMUL](http://c4dm.eecs.qmul.ac.uk/)
 
@@ -39,4 +39,42 @@ Contact
   Queen Mary University of London<br />
   Mile End Road<br />
   London E1 4NS<br />
-</address>
+</address> -->
+
+---
+## Experience
+{% include_relative experience-list.md %}
+
+---
+## Education
+{% include_relative education-list.md %}
+
+---
+## Publications
+{% assign postsByYear = site.publications | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% for year in postsByYear reversed %}
+<h4 style="margin:">{{ year.name }}</h4>
+<div class="entries-{{ page.entries_layout | default: 'list' }}">
+  {% for post in year.items reversed %}
+    <p class="archive__item-excerpt" itemprop="description">
+      <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i></a>
+      <a href="{{ post.permalink }}">
+      {{ post.citation }} </a>
+    </p>
+  {% endfor %}
+</div>
+{% endfor %}
+
+---
+## Academic Service
+<h4 style="margin-top: 0;">Reviewer</h4>
+<p style="margin: 0; color: #000;">International Conference on Digital Audio Effects (DAFx) - 2020, 2021, 2023, 2024</p>
+<p style="margin: 0; color: #000;">EURASIP Journal on Audio, Speech, and Music Processing - 2022, 2023, 2024</p>
+<p style="margin: 0; color: #000;">IEEE Signal Processing Letters - 2023</p>
+
+## Awards
+<h5 style="margin-bottom: 0;">Best Student Paper Award - AES Convention 2022</h5>
+<p style="margin: 0; color: #000;">"Reverse Engineering Memoryless Distortion Effects with Differentiable Waveshapers"</p>
+
+<h5>Best Reviewer Award - DAFx 2021</h5>
+<h5>UKRI Scholarship - Centre for Doctoral Training in Artificial Intelligence and Music (AIM) - 2019</h5>
